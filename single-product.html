@@ -1,0 +1,544 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <!-- required meta tags -->
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="E-commerce, Business, Buy, Sell, Order, Online, Online buy & sell">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Online Business</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
+
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Owl-carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- ============= Main Menu =============== -->
+    <header id="main-menu">
+            <nav id="site-top-nav" class="navbar animated fadeInUpBig">
+                <div class="container-fluid">
+                    <div class="site-nav-wrapper">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <a class="navbar-brand" href="index.html">
+                                <img src="img/logo/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div id="site-menu" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="cart.html">Cart <span class="red">(0)</span></a></li>
+                                <li><a href="checkout.html">Check Out <span class="red">($0)</span></a></li>
+                                <li><a href="wishlist.html">Wishlist <span class="red">(0)</span></a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <!-- ============= Main Menu End =============== -->
+
+    <!-- ============= Shop Product =============== -->
+    <section id="single-product">
+        <div class="container-fluid">
+            <div class="content-outter">
+
+                <div class="main-content">
+                    <div class="row">
+
+                        <!-- Single Product -->
+                        <div class="col-md-9 col-sm-8 col-xs-12">
+                            <div class="row">
+
+                                <!-- Single Product Thumbnail Slider-->
+                                <div class="col-md-5 col-sm-6 col-xs-6">
+                                    <div class="single-product-thumbnails">
+
+                                        <div class="product-main-slide">
+                                            <img src="img/product/1.jpg" alt="">
+                                        </div>
+
+                                        <div class="product-main-slide">
+                                            <img src="img/product/2.jpg" alt="">
+                                        </div>
+
+                                        <div class="product-main-slide">
+                                            <img src="img/product/3.jpg" alt="">
+                                        </div>
+
+                                        <div class="product-main-slide">
+                                            <img src="img/product/4.jpg" alt="">
+                                        </div>
+
+                                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                                        <div class="product-slider-bullet-box">
+                                            <div class="bullet">
+                                                <img class="bullet-img" src="img/product/1.jpg" alt="" onclick="currentSlide(1)">
+                                            </div>
+                                            <div class="bullet">
+                                                <img class="bullet-img" src="img/product/2.jpg" alt="" onclick="currentSlide(2)">
+                                            </div>
+                                            <div class="bullet">
+                                                <img class="bullet-img" src="img/product/3.jpg" alt="" onclick="currentSlide(3)">
+                                            </div>
+                                            <div class="bullet">
+                                                <img class="bullet-img" src="img/product/4.jpg" alt="" onclick="currentSlide(4)">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- Single Product Review -->
+                                <div class="col-md-7 col-sm-6 col-xs-6">
+                                    <div class="single-product-content">
+                                        <h2 class="single-product-name">Product Name</h2>
+                                        <div class="product-review-items">
+                                            <div class="review-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <a href="" class="review-submit">Add a review</a>
+                                        </div>
+                                        <div class="single-product-price">
+                                            <h3>$200</h3>
+                                        </div>
+                                        <div class="single-product-shor-desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit harum, nihil sapiente amet, earum volupta.</p>
+                                        </div>
+                                        <div class="single-product-actions">
+                                            <div class="table-product-quantity">
+                                                <div class="quantity">
+                                                    <button type="button" class="tf-qty-button minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                                                    <input type="number" class="input-text qty text" step="1" min="0"  value="0" title="Qty" placeholder="" >
+                                                    <button type="button" class="tf-qty-button plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                                                </div>
+                                            </div>
+                                            <div class="single-product-add-to-cart">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i> <span>Add to cart</span></a>
+                                            </div>
+                                            <div class="single-product-add-to-wishlist">
+                                                <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="single-product-category">
+                                            <p>Category: <a href="#">Category1</a>, <a href="#">Category 2</a></p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- Single Product Description -->
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="single-product-desc">
+                                        <ul>
+                                            <li><a href="#descripton">Descripton</a></li>
+                                            <li><a href="#additional-info">Additional Information</a></li>
+                                        </ul>
+                                        <div id="descripton">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam facere, porro adipisci dolore commodi nam reiciendis veritatis ullam deleniti ipsa nostrum cupiditate vero quae, quo alias, aperiam dolorem neque. Adipisci! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex modi voluptate, itaque enim delectus? Asperiores est commodi laudantium quam eius incidunt sapiente perspiciatis deserunt, doloremque aspernatur debitis sit sed dolorum!</p>
+                                        </div>
+                                        <div id="additional-info">
+                                            <table class="single-product-info-table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Dimensions</td>
+                                                        <td>6 × 5 × 1 in</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Color</td>
+                                                        <td>Blue</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Related Products-->
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                                    <!-- Title -->
+                                    <div class="content-title">
+                                        <h2>Related Products</h2>
+                                    </div>
+
+                                    <div class="row">
+
+                                        <!-- product 01 -->
+                                        <div class="col-md-4 col-sm-6 col-xs-6">
+                                            <div class="product-item">
+                                                <div class="product-thumbnail">
+                                                    <img src="img/product/5.jpg" alt="">
+                                                    <div class="product-overly">
+                                                        <div class="product-menu-box">
+                                                            <div class="product-overly-menu">
+                                                                <div class="product-overly-menu-item">
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-title">
+                                                    <h5>Product One</h5>
+                                                    <h5>$100</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- product 02 -->
+                                        <div class="col-md-4 col-sm-6 col-xs-6">
+                                            <div class="product-item">
+                                                <div class="product-thumbnail">
+                                                    <img src="img/product/6.jpg" alt="">
+                                                    <div class="product-overly">
+                                                        <div class="product-menu-box">
+                                                            <div class="product-overly-menu">
+                                                                <div class="product-overly-menu-item">
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-title">
+                                                    <h5>Product One</h5>
+                                                    <h5>$100</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- product 03 -->
+                                        <div class="col-md-4 col-sm-6 col-xs-6">
+                                            <div class="product-item">
+                                                <div class="product-thumbnail">
+                                                    <img src="img/product/7.jpg" alt="">
+                                                    <div class="product-overly">
+                                                        <div class="product-menu-box">
+                                                            <div class="product-overly-menu">
+                                                                <div class="product-overly-menu-item">
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-title">
+                                                    <h5>Product One</h5>
+                                                    <h5>$100</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Single Product Sidebar-->
+                        <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div class="single-product-sidebars">
+
+                                <div class="single-product-recent-view">
+                                    <h4 class="single-product-sidebar-title">Recently Viewed Products</h4>
+                                    <div class="single-product-sidebar-content">
+                                        <ul>
+                                            <li>
+                                                <div class="content-text">
+                                                    <a href="#">Peoduct Name</a>
+                                                    <p>$200</p>
+                                                </div>
+                                                <div class="content-thumbnail">
+                                                    <a href="">
+                                                        <img src="img/product/8.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="content-text">
+                                                    <a href="#">Peoduct Name</a>
+                                                    <p>$200</p>
+                                                </div>
+                                                <div class="content-thumbnail">
+                                                    <a href="">
+                                                        <img src="img/product/9.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="content-text">
+                                                    <a href="#">Peoduct Name</a>
+                                                    <p>$200</p>
+                                                </div>
+                                                <div class="content-thumbnail">
+                                                    <a href="">
+                                                        <img src="img/product/10.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="content-text">
+                                                    <a href="#">Peoduct Name</a>
+                                                    <p>$200</p>
+                                                </div>
+                                                <div class="content-thumbnail">
+                                                    <a href="">
+                                                        <img src="img/product/11.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="single-product-wishlist">
+                                    <h4 class="single-product-sidebar-title">Wishlist</h4>
+                                    <div class="single-product-sidebar-content">
+                                        <ul>
+                                            <li>
+                                                <div class="content-thumbnail">
+                                                    <a href="">
+                                                        <img src="img/product/12.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="content-text">
+                                                    <a href="#">Peoduct Name</a>
+                                                    <p>$200</p>
+                                                </div>
+                                                <div class="single-wishlist-remove">
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Remove"><i class="fa fa-times"></i></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="content-thumbnail">
+                                                    <a href="">
+                                                        <img src="img/product/13.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="content-text">
+                                                    <a href="#">Peoduct Name</a>
+                                                    <p>$200</p>
+                                                </div>
+                                                <div class="single-wishlist-remove">
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Remove"><i class="fa fa-times"></i></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="content-thumbnail">
+                                                    <a href="">
+                                                        <img src="img/product/7.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="content-text">
+                                                    <a href="#">Peoduct Name</a>
+                                                    <p>$200</p>
+                                                </div>
+                                                <div class="single-wishlist-remove">
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Remove"><i class="fa fa-times"></i></a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="content-thumbnail">
+                                                    <a href="">
+                                                        <img src="img/product/1.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="content-text">
+                                                    <a href="#">Peoduct Name</a>
+                                                    <p>$200</p>
+                                                </div>
+                                                <div class="single-wishlist-remove">
+                                                    <a href="#" data-toggle="tooltip" data-placement="top" title="Remove"><i class="fa fa-times"></i></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="single-product-view-wishlist-btn">
+                                            <a href="wishlist.html">View Wishlist</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ============= Shop Product End =============== -->
+
+    <!-- ============= Footer =============== -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Quick Links</h4>
+                            </div>
+                            <div class="footer-description">
+                                <ul>
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>About Us</h4>
+                            </div>
+                            <div class="footer-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae beatae, voluptatibus consectetur ab ut est soluta corrupti quo velit explicabo, eum nisi corporis repellat rem amet. Minus sed, architecto quos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Contact Us</h4>
+                            </div>
+                            <div class="footer-description">
+                                <p><i class="fa fa-map-marker"></i> Chittagong, Bangladesh</p>
+                                <p><i class="fa fa-phone"></i> +8801234567891</p>
+                                <p><i class="fa fa-envelope"></i> <a href="mailto:">info@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Newsletter</h4>
+                            </div>
+                            <div class="footer-description">
+                                <input type="text" class="form-control" placeholder="Enter your email">
+                                <input type="submit" value="Send" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2020.All Right Reserved.</p>
+        </div>
+
+        <!-- Back to top -->
+        <a href="#main-menu" id="back-to-top" class="btn-back-to-top smooth-scroll">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+
+    </footer>
+    <!-- ============= Footer End =============== -->
+
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("product-main-slide");
+            var dots = document.getElementsByClassName("bullet-img");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+    <!-- Bootstrap JS-->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Owl-carousel JS -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

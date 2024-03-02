@@ -1,0 +1,501 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <!-- required meta tags -->
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="E-commerce, Business, Buy, Sell, Order, Online, Online buy & sell">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Online Business</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
+
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Owl-carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- ============= Main Menu =============== -->
+     <!-- Navigation -->
+        <header id="main-menu">
+            <nav id="site-top-nav" class="navbar animated fadeInUpBig">
+                <div class="container-fluid">
+                    <div class="site-nav-wrapper">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                            <a class="navbar-brand" href="index.html">
+                                <img src="img/logo/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div id="site-menu" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="cart.html">Cart <span class="red">(0)</span></a></li>
+                                <li><a href="checkout.html">Check Out <span class="red">($0)</span></a></li>
+                                <li><a href="wishlist.html">Wishlist <span class="red">(0)</span></a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <!-- ============= Main Menu End =============== -->
+
+    <!-- ============= Header Banner =============== -->
+    <section id="header-banner">
+        <div class="header-banner-overly">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="header-banner-box">
+                            <div class="header-banner">
+                                <h1>Shop</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============= Header Banner End =============== -->
+
+    <!-- ============= Shop Product =============== -->
+    <section id="shop">
+        <div class="container-fluid">
+            <div class="content-outter">
+
+                <div class="main-content">
+                    <div class="row">
+                        <!-- Shop Sidebar-->
+                        <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div class="shop-search">
+                                <input type="text" class="form-control" placeholder="Search...">
+                            </div>
+                            <div class="shop-sidebars">
+                                <div class="shop-sidebar">
+                                    <h4 class="filter-by-price">Filter by price <span class="fa fa-refresh"></span></h4>
+                                    <div class="filter-by-price-div">
+                                        <div id="slider-range"></div>
+                                        <form action="form.php">
+                                            <label for="filter-price-amount">Price: </label>
+                                            <input type="text" id="filter-price-amount" size="10" readonly>
+                                            <button>Filter</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="shop-sidebar">
+                                    <h4 class="filter-by-color">Filter by color <span class="fa fa-refresh"></span></h4>
+                                    <div class="filter-by-color-div">
+                                        <ul>
+                                            <li>
+                                                <div class="color-span"></div> <a href="">Blue</a> <span class="color-count">7</span>
+                                            </li>
+                                            <li><span class="color-span"></span> <a href="">Gray</a> <span class="color-count">1</span></li>
+                                            <li><span class="color-span"></span> <a href="">Greeb</a> <span class="color-count">4</span></li>
+                                            <li><span class="color-span"></span> <a href="">Red</a> <span class="color-count">3</span></li>
+                                            <li><span class="color-span"></span> <a href="">Yellow</a> <span class="color-count">5</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="shop-sidebar">
+                                    <h4 class="filter-by-brands">Filter by Brands <span class="fa fa-refresh"></span></h4>
+                                    <div class="filter-by-brands-div">
+                                        <ul>
+                                            <li><span class="brands-span"><img src="img/brand/1.png" alt=""></span> <a href="">Brand 1</a> <span class="brands-count">7</span></li>
+                                            <li><span class="brands-span"><img src="img/brand/2.png" alt=""></span> <a href="">Brand 2</a> <span class="brands-count">1</span></li>
+                                            <li><span class="brands-span"><img src="img/brand/3.png" alt=""></span> <a href="">Brand 3</a> <span class="brands-count">4</span></li>
+                                            <li><span class="brands-span"><img src="img/brand/4.png" alt=""></span> <a href="">Brand 4</a> <span class="brands-count">3</span></li>
+                                            <li><span class="brands-span"><img src="img/brand/5.png" alt=""></span> <a href="">Brand 5</a> <span class="brands-count">5</span></li>
+                                            <li><span class="brands-span"><img src="img/brand/6.png" alt=""></span> <a href="">Brand 6</a> <span class="brands-count">2</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="shop-sidebar">
+                                    <h4 class="filter-by-size">Filter by Size <span class="fa fa-refresh"></span></h4>
+                                    <div class="filter-by-size-div">
+                                        <ul>
+                                            <li><a href="">Small</a> <span class="size-count">7</span></li>
+                                            <li><a href="">Middle</a> <span class="size-count">1</span></li>
+                                            <li><a href="">Large</a> <span class="size-count">4</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="shop-sidebar">
+                                    <h4 class="filter-by-categorie">Product categories <span class="fa fa-refresh"></span></h4>
+                                    <div class="filter-by-categorie-div">
+                                        <ul>
+                                            <li><i class="fa fa-folder-o" aria-hidden="true"></i> <a href="">Categories 1</a></li>
+                                            <li><i class="fa fa-folder-o" aria-hidden="true"></i> <a href="">Categories 2</a></li>
+                                            <li><i class="fa fa-folder-o" aria-hidden="true"></i> <a href="">Categories 3</a></li>
+                                            <li><i class="fa fa-folder-o" aria-hidden="true"></i> <a href="">Categories 4</a></li>
+                                            <li><i class="fa fa-folder-o" aria-hidden="true"></i> <a href="">Categories 5</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Shop Product -->
+                        <div class="col-md-9 col-sm-8 col-xs-12">
+                            <div class="row">
+
+                                <!-- product 01 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/1.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- product 02 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/2.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- product 03 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/3.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- product 04 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/4.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- product 05 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/5.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- product 06 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/6.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- product 07 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/7.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- product 08 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/8.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- product 09 -->
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="product-item">
+                                        <div class="product-thumbnail">
+                                            <img src="img/product/9.jpg" alt="">
+                                            <div class="product-overly">
+                                                <div class="product-menu-box">
+                                                    <div class="product-overly-menu">
+                                                        <div class="product-overly-menu-item">
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-shopping-basket"></i></a>
+                                                            <a href="single-product.html" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-eye"></i></a>
+                                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Add to wishlist"><i class="fa fa-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-title">
+                                            <h5>Product One</h5>
+                                            <h5>$100</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="pagination">
+                                        <div class="number-pagination">
+                                            <a href="#">1</a>
+                                            <a href="#">2</a>
+                                            <a href="#">3</a>
+                                        </div>
+                                        <div class="text-pagination">
+                                            <a href="#">Prev</a>
+                                            <a href="#">Next</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ============= Shop Product End =============== -->
+
+    <!-- ============= Footer =============== -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Quick Links</h4>
+                            </div>
+                            <div class="footer-description">
+                                <ul>
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 1</a></li>
+                                    <li><a href="">Link 1</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>About Us</h4>
+                            </div>
+                            <div class="footer-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae beatae, voluptatibus consectetur ab ut est soluta corrupti quo velit explicabo, eum nisi corporis repellat rem amet. Minus sed, architecto quos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Contact Us</h4>
+                            </div>
+                            <div class="footer-description">
+                                <p><i class="fa fa-map-marker"></i> Chittagong, Bangladesh</p>
+                                <p><i class="fa fa-phone"></i> +8801234567891</p>
+                                <p><i class="fa fa-envelope"></i> <a href="mailto:">info@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-item">
+                            <div class="footer-title">
+                                <h4>Newsletter</h4>
+                            </div>
+                            <div class="footer-description">
+                                <input type="text" class="form-control" placeholder="Enter your email">
+                                <input type="submit" value="Send" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2020.All Right Reserved.</p>
+        </div>
+
+        <!-- Back to top -->
+        <a href="#main-menu" id="back-to-top" class="btn-back-to-top smooth-scroll">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+
+    </footer>
+    <!-- ============= Footer End =============== -->
+
+    <!-- Bootstrap JS-->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Owl-carousel JS -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

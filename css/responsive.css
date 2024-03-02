@@ -1,0 +1,148 @@
+/*==================================================
+			Bootstrap 3 Media Queries         
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    /* Ok */
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Ok */
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .categorie {
+        margin-bottom: 20px;
+    }
+
+    .single-wishlist-remove a {
+        padding: 2px 0px;
+    }
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    section {
+        margin: 10px 10px;
+    }
+
+    .navbar {
+        padding: 0 0;
+    }
+
+    .categorie {
+        margin-bottom: 20px;
+    }
+
+    .content-outter {
+        padding: 20px 0;
+    }
+
+    .product-item {
+        margin: 0 10px;
+    }
+
+    #header-banner,
+    #single-product {
+        margin-top: 50px;
+    }
+
+    .shop-sidebar {
+        margin-bottom: 20px;
+    }
+
+    .single-product-sidebars {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:640px) {
+    section {
+        background-attachment: initial;
+    }
+
+    .content-title h1,
+    .footer-title,
+    .footer-description ul li,
+    .footer-description p {
+        text-align: center;
+    }
+
+    .cart-table th,
+    .cart-table td {
+        padding: 9px 9px;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        width: 50%;
+    }
+
+    .site-nav-wrapper {
+        padding: 0;
+    }
+
+    .content-title h1 {
+        font-size: 25px;
+    }
+
+    .col-xs-6 {
+        width: 100%;
+    }
+
+    .skitter {
+        height: 400px !important;
+    }
+
+    .skitter-large img {
+        height: 400px !important;
+    }
+
+    .label_skitter h2 {
+        font-size: 25px;
+    }
+
+    .border-title h1 {
+        font-size: 30px;
+    }
+
+    .label_skitter p {
+        padding: 15px 0;
+        color: #000;
+        font-size: 14px;
+    }
+
+    .label_skitter a {
+        padding: 5px 30px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .label_skitter {
+        top: 36%;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px) {
+    .wish-list-add-to-cart a span {
+        display: none;
+    }
+
+    #wishlist .cart-table th,
+    .cart-table td {
+        padding: 9px 0px;
+    }
+}
